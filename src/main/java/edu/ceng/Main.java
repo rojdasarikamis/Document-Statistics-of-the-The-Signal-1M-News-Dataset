@@ -9,6 +9,10 @@ import java.time.Month;
 
 import static edu.ceng.Helper.*;
 
+/**
+ * Main class
+ */
+
 
 class Arguments {
 
@@ -28,7 +32,7 @@ class Arguments {
 
 public class Main {
 
-  
+
 
     private int run(String[] args) throws IOException {
 

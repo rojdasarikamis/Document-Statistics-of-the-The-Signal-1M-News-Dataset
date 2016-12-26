@@ -20,7 +20,6 @@ class Article {
     private Date published;
 
     Month getMonth() {
-
         return published.toInstant().atZone(TimeZone.getTimeZone("UTC").toZoneId()).getMonth();
     }
 }
